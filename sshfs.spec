@@ -1,6 +1,6 @@
 Name: sshfs
 Version: 2.5
-Release: 2
+Release: 3
 Source0: http://cznic.dl.sourceforge.net/project/fuse/sshfs-fuse/%{version}/sshfs-fuse-%{version}.tar.gz
 Summary: Filesystem based on ssh
 URL: http://fuse.sf.net/sshfs.html
