@@ -1,6 +1,6 @@
 Name: sshfs
 Version: 2.7
-Release: 1
+Release: 1.1
 Source0: https://github.com/libfuse/sshfs/releases/download/sshfs-2.7/%{name}-%{version}.tar.gz
 Summary: Filesystem based on ssh
 URL: http://fuse.sf.net/sshfs.html
@@ -20,8 +20,8 @@ the server with ssh.
 
 %prep
 %setup -q
-export CFLAGS="%{optflags} -fuse-ld=bfd"
-export LDFLAGS="%{optflags} -fuse-ld=bfd"
+export CFLAGS="%{optflags}"
+export LDFLAGS="%{optflags}"
 %configure
 
 %build
