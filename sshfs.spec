@@ -1,7 +1,7 @@
 Name: sshfs
-Version: 2.5
-Release: 5
-Source0: http://cznic.dl.sourceforge.net/project/fuse/sshfs-fuse/%{version}/sshfs-fuse-%{version}.tar.gz
+Version: 2.7
+Release: 1
+Source0: https://github.com/libfuse/sshfs/releases/download/sshfs-2.7/%{name}-%{version}.tar.gz
 Summary: Filesystem based on ssh
 URL: http://fuse.sf.net/sshfs.html
 License: GPL
@@ -19,7 +19,7 @@ On the client side mounting the filesystem is as easy as logging into
 the server with ssh.
 
 %prep
-%setup -q -n %{name}-fuse-%{version}
+%setup -q
 export CFLAGS="%{optflags} -fuse-ld=bfd"
 export LDFLAGS="%{optflags} -fuse-ld=bfd"
 %configure
