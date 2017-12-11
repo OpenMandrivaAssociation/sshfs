@@ -9,7 +9,8 @@ Group: System/Libraries
 BuildRequires: pkgconfig(fuse3)
 BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(gthread-2.0)
-BuildRequires: meson ninja
+BuildRequires: meson
+BuildRequires: python-docutils
 
 %description
 This is a filesystem client based on the SSH File Transfer Protocol.
