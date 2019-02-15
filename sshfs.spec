@@ -1,6 +1,6 @@
 Name: sshfs
-Version: 3.3.1
-Release: 2
+Version: 3.5.1
+Release: 1
 Source0: https://github.com/libfuse/sshfs/archive/sshfs-%{version}.tar.gz
 Summary: Filesystem based on ssh
 URL: http://fuse.sf.net/sshfs.html
