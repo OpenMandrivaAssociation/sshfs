@@ -1,5 +1,5 @@
 Name: sshfs
-Version: 3.5.1
+Version: 3.7.2
 Release: 1
 Source0: https://github.com/libfuse/sshfs/archive/sshfs-%{version}.tar.gz
 Summary: Filesystem based on ssh
