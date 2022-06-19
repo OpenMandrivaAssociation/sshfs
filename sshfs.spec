@@ -1,5 +1,5 @@
 Name: sshfs
-Version: 3.7.2
+Version: 3.7.3
 Release: 1
 Source0: https://github.com/libfuse/sshfs/archive/sshfs-%{version}.tar.gz
 Summary: Filesystem based on ssh
@@ -31,11 +31,9 @@ export LDFLAGS="%{optflags}"
 
 %install
 %meson_install
-mkdir -p %{buildroot}/sbin
-mv %{buildroot}%{_sbindir}/* %{buildroot}/sbin/
 
 %files
-/sbin/mount.sshfs
-/sbin/mount.fuse.sshfs
+%{_sbindir}/mount.sshfs
+%{_sbindir}/mount.fuse.sshfs
 %{_bindir}/sshfs
 %{_mandir}/man1/*
