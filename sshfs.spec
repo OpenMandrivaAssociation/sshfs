@@ -3,7 +3,7 @@ Version: 3.7.3
 Release: 2
 Source0: https://github.com/libfuse/sshfs/archive/sshfs-%{version}.tar.gz
 Summary: Filesystem based on ssh
-URL: http://fuse.sf.net/sshfs.html
+URL: https://fuse.sf.net/sshfs.html
 License: GPL
 Group: System/Libraries
 BuildRequires: pkgconfig(fuse3)
